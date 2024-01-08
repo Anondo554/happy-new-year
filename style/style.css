@@ -1,0 +1,47 @@
+.banner{ 
+    align-items: center;
+justify-content: center;
+}
+.banner-text{
+color: aliceblue; 
+font-family: Merriweather;  
+top: 20%;
+right:40%;
+position:absolute; 
+text-align: center; 
+display: block;  
+}
+.h{    
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px; 
+    
+}
+.n{  
+font-size: 72px;
+font-weight: 900;
+line-height: 95px; 
+}
+.text{
+    font-family: Inter;
+    text-align: center;
+    padding-bottom: 200px;
+
+}
+.text-p{
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px; 
+    color: red;
+}
+.text-o{ 
+font-size: 24px;
+font-weight: 500;
+line-height: 29px; 
+color: red;
+}
+.text-a{ 
+font-size: 48px;
+font-weight: 700;
+line-height: 58px; 
+}
