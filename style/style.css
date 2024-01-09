@@ -62,7 +62,7 @@
 .ban {
     position: relative;
     text-align: center;
-    display: block;
+    /* display: block;  */
 }
 
 
@@ -74,18 +74,15 @@
     color: white;
     font-size: 40px;
     font-weight: bold;
-    display: flex;
-    /* justify-content: center;  */
-    margin-right: 300px;
+    justify-content: center;
     gap: 10px;
-    /* display: block; */
-
 }
 
 .text-q {
     font-family: Inter;
     font-size: 18px;
     position: absolute;
+    padding-top: 180px;
 }
 
 .w {
@@ -94,6 +91,8 @@
     font-weight: 900;
     position: absolute;
     margin-bottom: 400px;
+    margin-right: 100px;
+    border-right: 400px;
 
 }
 
@@ -101,14 +100,16 @@
     height: 100px;
     width: 250px;
     margin-left: 300px;
-    margin-bottom: 70px;
+    margin-bottom: 1500px;
+    margin-left: 700px;
+
 }
 
 .text-f {
     text-align: center;
     padding: 180px 320px;
     font-size: 32px;
-    background-color: blanchedalmond;  
+    background-color: blanchedalmond;
     margin: 150px 120px;
 }
 
@@ -117,20 +118,75 @@
 }
 
 .batton {
-    background: red; 
+    background: red;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
+}
+
+.off {
+    color: red;
+}
+
+.coming {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    font-family: Inter;
+    padding-bottom: 200px;
+}
+
+.part {
+    flex: 0 0 30%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.part img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.new {
+    color: red;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
 
 }
-.off{
-    color: red; 
+
+.new-n {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: red;
+
 }
-.coming{
+
+.com {
     font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-line-height: 60px; 
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+
+}
+
+.d {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 
 }
