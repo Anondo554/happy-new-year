@@ -1,0 +1,30 @@
+.banner {
+    position: relative;
+    text-align: center;
+    display: block;
+  }
+  
+  .banner img {
+    width: 100%; /* Adjust image size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+  } 
+  .img{
+    height: 300px;
+    width: 300px;
+    margin-left: 850px;
+    margin-bottom: 400px;
+
+  }

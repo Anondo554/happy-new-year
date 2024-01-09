@@ -1,47 +1,136 @@
-.banner{ 
-    align-items: center;
-justify-content: center;
+.banner {
+    margin-left: 70px;
+    margin-top: 50px;
+    display: flex;
 }
-.banner-text{
-color: aliceblue; 
-font-family: Merriweather;  
-top: 20%;
-right:40%;
-position:absolute; 
-text-align: center; 
-display: block;  
+
+.banner-text {
+    color: aliceblue;
+    font-family: Merriweather;
+    top: 28%;
+    right: 35%;
+    position: absolute;
+    text-align: center;
+    display: block;
 }
-.h{    
+
+.h {
     font-size: 32px;
     font-weight: 400;
-    line-height: 40px; 
-    
+    line-height: 40px;
+
 }
-.n{  
-font-size: 72px;
-font-weight: 900;
-line-height: 95px; 
+
+.n {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
 }
-.text{
+
+.text {
     font-family: Inter;
     text-align: center;
     padding-bottom: 200px;
 
 }
-.text-p{
+
+.text-p {
     font-size: 88px;
     font-weight: 700;
-    line-height: 107px; 
+    line-height: 107px;
     color: red;
 }
-.text-o{ 
-font-size: 24px;
-font-weight: 500;
-line-height: 29px; 
-color: red;
+
+.text-o {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: red;
 }
-.text-a{ 
+
+.text-a {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.img {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.ban {
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
+
+.banner-texts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    /* justify-content: center;  */
+    margin-right: 300px;
+    gap: 10px;
+    /* display: block; */
+
+}
+
+.text-q {
+    font-family: Inter;
+    font-size: 18px;
+    position: absolute;
+}
+
+.w {
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    position: absolute;
+    margin-bottom: 400px;
+
+}
+
+.imgs {
+    height: 100px;
+    width: 250px;
+    margin-left: 300px;
+    margin-bottom: 70px;
+}
+
+.text-f {
+    text-align: center;
+    padding: 180px 320px;
+    font-size: 32px;
+    background-color: blanchedalmond;  
+    margin: 150px 120px;
+}
+
+.p {
+    color: red;
+}
+
+.batton {
+    background: red; 
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+.off{
+    color: red; 
+}
+.coming{
+    font-family: Merriweather;
 font-size: 48px;
-font-weight: 700;
-line-height: 58px; 
+font-weight: 900;
+line-height: 60px; 
+
 }
