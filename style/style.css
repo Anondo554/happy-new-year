@@ -324,9 +324,10 @@
     padding-right: 180px;
     width: 269.19px height: 58px
 }
-.text-k{
+
+.text-k {
     justify-content: space-between;
     display: flex;
-} 
-.phn-nambar{
 }
+
+.phn-nambar {}
