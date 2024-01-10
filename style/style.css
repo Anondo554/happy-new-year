@@ -287,7 +287,8 @@
 }
 
 .text-x {
-    background-color: red;
+    background-color: rgb(3, 0, 0);
+    color: #ccc;
     font-size: 32px;
     margin: 150px 120px;
 }
