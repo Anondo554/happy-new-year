@@ -190,59 +190,143 @@
     line-height: 32px;
 
 }
-.x{
+
+.x {
     text-align: center;
-    padding-top: 500px; 
+    padding-top: 500px;
 }
-.y{ 
+
+.y {
     font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 29px; 
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
 }
-.z{
+
+.z {
     font-family: Merriweather;
-font-size: 72px;
-font-weight: 900; 
-font-family: Inter;
-font-size: 72px;
-font-weight: 700; 
-padding-left: 100px;
-padding-right: 450px; 
+    font-size: 72px;
+    font-weight: 900;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    padding-left: 100px;
+    padding-right: 450px;
 }
-.w{
-    color: red; 
+
+.w {
+    color: red;
     padding-left: 280px;
 }
-.i{
+
+.i {
     font-family: Inter;
     font-size: 30px;
     font-weight: 500;
-    line-height: 32px; 
-    
+    line-height: 32px;
+
 }
-.main-pics{
-    display: flex;  
+
+.main-pics {
+    display: flex;
 }
-.third-pic{   
-    border-top:100px ; 
-    height: 240px;  
+
+.third-pic {
+    border-top: 100px;
+    height: 240px;
     padding-bottom: 200px;
 }
-.fast{ 
-    height: 600px;   
-    width: 600px;  
-} 
-  .secent-pic{ 
+
+.fast {
+    height: 600px;
+    width: 600px;
+}
+
+.secent-pic {
     height: 500px;
     width: 500px;
     padding-top: 200p;
-    
 
-  }   
-.forth{  
-    height: 100px; 
+
 }
-.pic-s{
+
+.forth {
+    height: 100px;
+}
+
+.pic-s {
     text-align: center;
+}
+
+.main-b {
+    text-align: center;
+    padding: 180px 320px;
+    font-size: 32px;
+    background-color: blanchedalmond;
+    margin: 150px 120px;
+}
+
+
+.group-d {
+    border-radius: 50px;
+    height: 50px;
+    width: 400px;
+    width: 141px top: 6479.07px left: 460px border-radius: 50px
+}
+
+.group-e {
+    pxfont-family: Inter;
+    background-color: red;
+    color: aliceblue;
+    height: 50px;
+    padding: 10px 40px 10px;
+    position: absolute;
+    font-size: 20px;
+    border-radius: 50px;
+
+}
+
+.text-x {
+    background-color: red;
+    font-size: 32px;
+    margin: 150px 120px;
+}
+
+.text-v {
+    justify-content: space-between;
+    display: flex
+}
+
+.main-w {
+    font-family: Inter;
+    font-size: 24px;
+    padding-left: 180px;
+
+}
+
+.main-u {
+    font-family: Inter;
+    font-size: 24px;
+    padding-right: 180px;
+
+}
+
+.text-y {
+    text-align: center;
+}
+
+.text-j {
+    padding-left: 180px;
+    width: 269.19px height: 58px
+}
+
+.text-i {
+    padding-right: 180px;
+    width: 269.19px height: 58px
+}
+.text-k{
+    justify-content: space-between;
+    display: flex;
+} 
+.phn-nambar{
 }
